@@ -1,0 +1,33 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-div {
+  width: 85%;
+  background-color: aliceblue;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .content-div {
+    width: 60%;
+  }
+}
+.select {
+  margin: 15px;
+}
+.head {
+  color: #323f4b;
+  font-size: 35px;
+  font-weight: 500;
+}
+.options {
+  color: #000000;
+  font-size: 15px;
+}
